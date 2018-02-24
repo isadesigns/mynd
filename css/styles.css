@@ -1,0 +1,211 @@
+/* ----- GENERAL STYLES ----- */
+
+    a {
+      color: black;
+    }
+
+    a:hover {
+      color: #F7931A;
+    }
+
+    a:visited {
+      color: #F7931A;
+    }
+
+    .py-100{
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+
+
+/* ------ NAV BAR ------ */
+
+    .navbar{
+      background-color: #CDE8E5;
+    }
+
+    .logo-text {
+      font-family: 'Nunito', sans-serif;
+      color: #00405E;
+      font-weight: 300;
+      font-size: 50px;
+      margin-left: 16px;
+      margin-top: -9px;
+      display: inline-block;
+    }
+
+    .navbar-right-side{
+      color: #00405E;
+      font-size: 20px;
+    }
+
+    .btn-get{
+      background-color: #00405E;
+      border-radius: 10px;
+      padding: 10px 25px;
+      font-family: 'Nunito', sans-serif;
+      font-weight: 300;
+      text-transform: uppercase;
+      font-size: 20px;
+    }
+
+    a.btn-get {
+      color: #CDE8E5;
+    }
+
+
+/* ------- JUMBOTRON ----- */
+
+    .jumbotron{
+      background-color: #FFB761;
+      font-family: 'Nunito';
+      color: #00405E;
+    }
+
+    .display-1{
+        font-famiy: 'Nunito', sans-serif;
+        font-size: 60px;
+    }
+
+    .display-3{
+      font-family: 'Nunito'; sans-serif;
+      font-size: 50px;
+    }
+
+    .ios{
+      margin: 10px 10px 10px 10px;
+      width: 1000px;
+      height: auto;
+
+    }
+
+    .android{
+      margin: 10px 10px 10px 10px;
+      width: 1000px;
+      height: auto;
+    }
+
+
+/* ------ ROW 1 HOW MYND WORKS ------ */
+
+    .row1 {
+      background-color: white;
+    }
+
+
+    .row1-image {
+      height: 150px;
+    }
+
+    .col-md-12{
+      font-size: 40px;
+      font-family: 'Nunito', sans-serif;
+      color: #00405E;
+      font-weight: 100;
+      padding: 20px 30%;
+    }
+
+    .col-md-4{
+      font-size: 8px;
+      font-family: 'Open Sans', sans-serif;
+      font-family: 'Nunito', sans-serif;
+      color: #00405E;
+      font-weight: 30;
+    }
+
+
+/* ----- ROW 2 TESTIMONIALS -----*/
+
+    .row2 {
+      background-image: url('../images/quotes.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 1000px;
+      width: 100vw;
+      position: relative;
+      left: 50%;
+      right: 50%;
+      margin-left: -50vw;
+      margin-right: -50vw;
+    }
+
+    .mb-0{
+
+    }
+
+
+/* ----- ROW 3 HOW MYND HELPS ----- */
+
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .row3-image {
+      width: 50%;
+    }
+
+    .row3 {
+      background-color: white;
+
+    }
+
+    .row3 .col-md-3{
+      padding: 30px 0px;
+    }
+
+    .h1{
+      color: #00405E;
+    }
+
+    .col-md-4{
+      font-family: 'Open Sans', sans-serif;
+      color: #00405E;
+    }
+
+
+/* ----- ROW 4 ENDORSEMENTS ----- */
+
+    .row4{
+      background-color: #00405E;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 400px;
+      width: 100vw;
+      position: relative;
+      left: 50%;
+      right: 50%;
+      margin-left: -50vw;
+      margin-right: -50vw;
+    }
+
+
+/* ----- ROW 5 CTA DOWNLOAD ----- */
+
+    .row5{
+      background-color: white;
+    }
+
+    .col-md-9{
+      color: #00405E;
+      font-family: 'Nunito', sans-serif;
+    }
+
+
+/* ----- FOOTER -----*/
+
+    .footer {
+      background-color: #CDE8E5;
+      color: #00405E;
+    }
+
+    .col-md-8{
+          padding: 25px 100px;
+    }
+
+    .div-social {
+      color: #00405E;
+      font-size: 50px;
+    }
