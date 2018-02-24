@@ -50,7 +50,7 @@
                 <a class="navbar navbar-right-side" href="#">FAQ's</a>
               </li>
               <li class="nav-item">
-                <a class="navbar navbar-right-side" href="#">CONTACT US</a>
+                <a class="navbar navbar-right-side" href="#contact">CONTACT US</a>
               </li>
                 <li class="nav-item">
                   <a class="navbar navbar-right-side btn-get" href="#">GET NOW</a>
@@ -245,11 +245,15 @@
 
 
     </div>  <!-- END OF container-fluid -->
+
+
+
+
   </main>
 
   <!-- FOOTER begins here -->
 
-    <footer class="footer container-fluid">
+    <footer id='contact' class="footer container-fluid">
       <div class="row py-20">
         <!-- COLUMN 1 -->
         <div class="col-md-8">
@@ -272,13 +276,30 @@
 
 
 
-  <!-- BOOTSTRAP JS FILES FOR FASTER LOADING. PLACE AT THE END! IF NOT, IT WILL SLOW DOWN THE BROWSER -->
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!--BOOTSTRAP JS FILES -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-  <!-- END OF BOOTSTRAP JS FILES -->
+   <!-- JS snippet for tooltip and Scroll effect -->
+    <script type="text/javascript">
+    $(function() {
+      $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
+    </script>
+
 
 </body>
 
